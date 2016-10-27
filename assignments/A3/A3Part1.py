@@ -1,4 +1,4 @@
-﻿from scipy.fftpack import fft
+from scipy.fftpack import fft
 import numpy as np
 from fractions import gcd
 

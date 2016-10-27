@@ -22,11 +22,4 @@ def genMagSpec(x):
         magX (numpy array) = The magnitude spectrum of the input sequence x
                              (length N)
     """
-    return np.absolute(DFT(x))
-
-
-
-if __name__ == '__main__':
-    x = np.array([1, 2, 3, 4])
-    print(genMagSpec(x))
-    print(np.array([10.0, 2.82842712, 2.0, 2.82842712]))
+    ## Your code here
